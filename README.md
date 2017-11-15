@@ -34,6 +34,7 @@ yarn add graph-app-kit --registry https://neo.jfrog.io/neo/api/npm/npm
 ```
 
 ```javascript
+import 'semantic-ui-css/semantic.min.css';
 import { Cypher, DriverProvider } from 'graph-app-kit/utils'
 import { Render, Chart } from 'graph-app-kit/ui'
 ```
